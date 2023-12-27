@@ -32,8 +32,16 @@
     text-decoration: underline;
 }
 
+.report p{
+
+}
+
 .facts h4{
     text-decoration: underline;
+}
+
+.reset{
+    margin-top: 80px;
 }
 
 .bmi{
