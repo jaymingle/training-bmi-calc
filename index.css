@@ -28,8 +28,12 @@
     align-items: center;
 }
 
-.report{
+.report h4{
+    text-decoration: underline;
+}
 
+.facts h4{
+    text-decoration: underline;
 }
 
 .bmi{
