@@ -6,11 +6,6 @@ function calculateData(){
 
     let bmi_value = Number((weight/Math.pow(height,2) * 10000).toFixed(2))
 
-    console.log("Calculating")
-    console.log(height)
-    console.log(weight)
-    console.log("BMI", bmi_value)
-
     let msg = ''
     let msg_status = ''
 
@@ -41,8 +36,6 @@ function calculateData(){
 }
 
 function resetData(){
-    console.log("Resetting")
-
      document.querySelector("#the_height").value = ""
      document.querySelector("#the_weight").value = ""
     document.getElementById("report_msg").innerHTML = " "
