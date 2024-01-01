@@ -1,10 +1,7 @@
-const calculateBMI = document.querySelector("#calculateBMI")
+function calculateData(){
+    console.log("Calculating")
+}
 
-calculateBMI.onclick = () => {
-
-    const heightCM = document.querySelector("#the_height").value
-    const weightKG = document.querySelector("#the_weight").value
-
-    console.log("Height", heightCM)
-    console.log("Weight", weightKG)
+function resetData(){
+    console.log("Resetting")
 }
