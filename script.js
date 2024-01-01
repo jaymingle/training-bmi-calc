@@ -28,7 +28,7 @@ function calculateData(){
     }else{
         msg = "Your BMI is " + bmi_value + " " + <span id="msg_status">Morbidly Obese</span>
     }
-
+    document.getElementById("report_msg").innerHTML += msg
 }
 
 function resetData(){
