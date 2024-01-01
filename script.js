@@ -14,7 +14,7 @@ function calculateData(){
     let msg = ''
 
     if(bmi_value < 16){
-        msg = "Your BMI is " + bmi_value + " " + <span id=""></span>
+        msg = "Your BMI is " + bmi_value + " " + <span id="msg_status"></span>
     }
 
 }
