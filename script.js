@@ -36,8 +36,8 @@ function calculateData(){
         msg = "Your BMI is " + bmi_value
         msg_status = "Morbidly Obese"
     }
-    document.getElementById("report_msg").innerHTML = msg + " "
-    document.getElementById("msg_status").innerHTML = " " + msg_status
+    document.getElementById("report_msg").innerHTML += msg
+    document.getElementById("msg_status").innerHTML +=  msg_status
 }
 
 function resetData(){
@@ -45,4 +45,6 @@ function resetData(){
 
      document.querySelector("#the_height").value = ""
      document.querySelector("#the_weight").value = ""
+    document.getElementById("report_msg").innerHTML = " "
+    document.getElementById("msg_status").innerHTML = " "
 }
