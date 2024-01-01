@@ -1,8 +1,8 @@
 
 function calculateData(){
 
-    let height = document.querySelector("#the_height").value
-    let weight = document.querySelector("#the_weight").value
+    let height = Number(document.querySelector("#the_height").value)
+    let weight = Number(document.querySelector("#the_weight").value)
 
     console.log("Calculating")
     console.log(height)
@@ -11,4 +11,7 @@ function calculateData(){
 
 function resetData(){
     console.log("Resetting")
+
+     document.querySelector("#the_height").value = ""
+     document.querySelector("#the_weight").value = ""
 }
