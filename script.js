@@ -33,6 +33,9 @@ function calculateData(){
     }
     document.getElementById("report_msg").innerHTML += msg
     document.getElementById("msg_status").innerHTML +=  msg_status
+
+    document.querySelector("#the_height").value = " "
+    document.querySelector("#the_weight").value = " "
 }
 
 function resetData(){
