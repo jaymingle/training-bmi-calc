@@ -78,3 +78,13 @@ button{
     border: 2px solid white;
     border-radius: 7px;
 }
+
+#calculateBMI{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.bmi > div{
+    margin-top: 20px;
+}
+
